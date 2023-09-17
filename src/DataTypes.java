@@ -4,7 +4,8 @@ public class DataTypes {
     // TODO TASK 1: fix this code so that it passes the test in DataTypesTest.java
     public static long sum(List<Integer> numbers) {
 
-        int s = 0;
+        long s = 0; //change int to long so that it can hold all the digits
+
         // below is a "foreach" loop which iterates through numbers
         for (int x : numbers) {
             s += x;
